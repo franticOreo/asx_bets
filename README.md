@@ -6,7 +6,6 @@ I chose to use reddit user posts and comments from the subreddits, ASX_Bets and 
 
 ![img](/zip_asx_bets_vs_asx_price.png)
 
-**Interpretation**<br>
 Here we can see ASX_Bets have a small spike around the first week of May. Then, the mentions plateued until a month later. A rapid increase in both the mentions and the ASX price. Mentions seem to be lagging behind the price by about a day. After, the spike in mentions the mentions fall rapidly. It seems that the mentions on the subreddit are still lagging behind Z1P Closing price. Overall, It seems unlikely that ASX_Bets have any significant effect on the ASX Price for Z1P.
 
 To determine statistical significance, I used [Granger Causality](https://en.wikipedia.org/wiki/Granger_causality) to determine whether the time-series of the closing price of Zip was determined by the mentions on ASX_Bets. The F-test for the Grange Causality had a p-value of 0.3075, which is much greater that our level of significance, 0.05. Therefore we fail to reject our null hypothesis, ASX_Bets Mentions do not Granger-cause Zip ASX Closing Price. ASX_Bets Mentions do not determine any stock prices. This is most probably due to the large size of zip relative to smaller stocks.
@@ -17,4 +16,9 @@ After this, I figured maybe due to Zip's relatively large Market Capitalisation 
 
 ![img2](/opy_asx_bets_vs_asx_price.png)
 
-Again we can see similar features from the initial plot of Zip, there is a long tail in both lines, 
+Again we can see similar features from the initial plot of Zip, there is a long tail in both lines, Interesting it seems this relationship is a lot closer, visually. The peaks are very closely aligned if not perfectly. However, it does not seem that this could be predictive of the price. The results of the Granger Causality returned a p-value of 0.1546, still not significant but almost half the size of the Zip's respective p-value, suggesting a closer relationship.
+
+**Overall**
+We can conclude that this analysis shows the reddit forums(ASX_Bets and ausstocks) do not have any significant effect on the price of these ASX listed stocks. 
+
+
