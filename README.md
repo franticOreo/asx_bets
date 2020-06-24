@@ -15,6 +15,6 @@ After I tested the reverse, does the ASX price Granger-cause the amount of menti
 
 After this, I figured maybe due to Zip's relatively large Market Capitalisation of approx. 2.5b. I would be able to find more interesting results in smaller capitalisation stocks, I also introduced another reddit forums dataset, [ausstocks](https://www.reddit.com/r/ausstocks/wiki/index). I sorted the by the most mentioned stocks from both forums. As expected majority of the stocks most mentioned are large cap stocks, however, OPY(OpenPay) is currently around 250 million market cap, which some would define as a Micro-cap stock. OPY is about 10% of the size of Zip Pay. I then proceeded with the same methodology as I did with Zip. 
 
-![img2](/zip_asx_bets_vs_asx_price.png)
+![img2](/opy_asx_bets_vs_asx_price.png)
 
-
+Again we can see similar features from the initial plot of Zip, there is a long tail in both lines, 
